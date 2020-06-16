@@ -1,0 +1,37 @@
+/* Open CSS Cart.php */
+
+.Header h1{
+    text-align: justify;
+    text-decoration: double;
+    color: blue;
+   
+}
+
+
+.TableList {
+    color: black;
+    display: table;
+    
+}
+
+.TableListRow{
+    display: table-row;
+    table-layout: fixed;
+}
+
+.TableListCol{
+    display: table-cell;
+    border: 0.5px solid;
+    box-sizing: border-box;
+    text-align: left;
+    table-layout: auto;
+}
+
+/* End CSS Cart.php*/
+
+/* Open CSS AddItem.html */
+.FormAddItemBody{
+   
+}
+
+/* End CSS AddItem.html */

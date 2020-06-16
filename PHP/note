@@ -1,0 +1,35 @@
+    //echo 'Kết nối thành công';
+    //$sql = "SELECT DISTINCT  a.Title, b.Name,* from ( ( Select ID,Name as Title,PartnerID from category where PartnerID = 0)a  JOIN category b on a.ID = b.PartnerID )";
+ /*   $sql = "SELECT * FROM category";
+    $kq = $connect->query($sql);
+    if($kq->num_rows > 0){
+
+        $childCategory = array();
+        while($data = mysqli_fetch_assoc($kq)) {
+            if( $data["ParentId"] == 0 ) continue;
+            $childCategory[$data["ParentId"]][] = $data; //group category by parentId
+        }    
+        echo "<ul>";
+        $kq2 = $connect->query($sql);
+        while ($category = mysqli_fetch_assoc($kq2)) 
+        {
+            if( $category["ParentId"] != 0 ) continue; // skip if category not is parent
+            echo ("<li>");
+                echo $category["Name"];
+                if( isset($childCategory[$category["ID"]]) )
+                {
+                    echo "<ul>";
+                    foreach($childCategory[$category["ID"]] as $childCat) 
+                    {
+                        echo "<li>{$childCat["Name"]}</li>" ;
+                    }
+                    echo "</ul>";
+                }   
+            echo "</li>";
+        } 
+        echo "</ul>";
+       
+        //echo $product_name;
+    } else {
+        echo "Error";  
+    }*/

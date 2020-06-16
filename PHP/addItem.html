@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/democss.css"/>
+    <title>Main Page</title>
+</head>
+<body>
+    <div class="Header">
+            <h1> Thêm sản phẩm</h1>
+            <button onclick="document.location = 'Cart.php'">Danh sách sản phẩm</button>
+    </div>
+    <div class="FormAddItemBody">
+        <form action="addItem.php" method="POST" id="FormAddItem">
+            <h3> Tên sản phẩm:</h3>
+            <input type="text" id="product_name" name="product_name"><br>
+            <h3>Category</h3>
+            <select id="Category_ID" name="Category_ID">
+                <option value="3">PC</option>
+                <option value="2">Laptop</option>
+                <option value="4">Desktop</option>
+            </select><br>
+            <h3> </h3>
+            <button type="submit">Create</button>
+        </form>
+
+    </div>  
+    
+</body>
+</html>
